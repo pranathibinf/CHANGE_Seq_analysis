@@ -1,4 +1,4 @@
-# CHANGESeq data CRISPR off- target analysis of LRRK2 gene
+# Off-Target Profiling of CRISPR Editing at the LRRK2 Gene Using the CHANGE-seq Dataset
 
 This project analyzes off-target effects of CHANGE-seq data, focusing on the LRRK2 gene region, using BigWig files containing histone modification signals.
 The notebook automatically fetches signal data, visualizes histone modifications across the LRRK2 region, identifies genome-wide off-target peaks, and ranks the strongest off-target sites.
@@ -33,7 +33,9 @@ Additionally, this work is part of building a larger NGS pipeline for CRISPR gen
 ###### Notes:
 A signal threshold of 5 was used to define off-target peaks. Focused analysis was performed on chromosome 12 (LRRK2: chr12:40,567,000–40,653,000).
 
-Requirements:
+**Requirements:**
+CHANGE_seq dataset: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149295 ;
+
 Python 3.x, Packages: pyBigWig, numpy, matplotlib, pandas, os
 
-Contributing: Pull requests are welcome. If you have suggestions for improving the analysis or visualizations, feel free to open an issue.
+**Contributing:** Pull requests are welcome. If you have suggestions for improving the analysis or visualizations, feel free to open an issue.
